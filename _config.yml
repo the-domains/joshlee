@@ -1,28 +1,40 @@
-name: Joshlee
 favicon: null
-layout_spectrum: 0.3735758909024298
-typography_spectrum: 0.3823604667559266
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Joshlee
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.2952976324595511
+  brandStrength: 0.8602151
+  lightness: 0.793318607378751
   brandColors:
     - '#17BEBB'
     - '#2E282A'
     - '#CD5334'
     - '#EDB88B'
     - '#FAD8D6'
-  brandStrength: 0.8722543395124376
-  lightness: 0.793318607378751
-  saturation: 0.2952976324595511
-  rhythmicContrast: 0.020398573484271765
-purpose: []
+  rhythmicContrast: 0.02039857348427176
+typography_spectrum: 0.6362007
+layout_spectrum: 0.1003584
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
